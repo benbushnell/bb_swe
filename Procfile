@@ -1,1 +1,1 @@
-web: gunicorn bb-swe.wsgi --log-file -
+web: gunicorn musey.wsgi --log-file -
