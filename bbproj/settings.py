@@ -30,7 +30,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bb-swe.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['bb-swe-musey-21.herokuapp.com', '127.0.0.1']
 
 
 
@@ -98,7 +98,9 @@ DJOSER = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://127.0.0.1:3000"
+    "http://127.0.0.1:3000",
+    "https://bb-swe.web.app",
+    "https://bb-swe.firebaseapp.com"
 ]
 
 
